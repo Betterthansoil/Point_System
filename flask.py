@@ -46,7 +46,7 @@ def pointsjson():
 
 @app.route('/points', methods=['POST'])
 def points():
-  user_points = str(request.args.post(simple_user_database))
+  user_points = (simple_user_database)
   json_dumps = json.dumps(user_points)
   return json_dumps 
   
