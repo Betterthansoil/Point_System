@@ -43,7 +43,7 @@ def deductPoints (user,points):
 
 @app.route('/deduct')
 def deductjson():
-    user_points = (simple_user_database)
+    user_points = simple_user_database
     json_dumps = json.dumps(user_points)
     return json_dumps
 
