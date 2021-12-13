@@ -62,7 +62,7 @@ def deductPoints (user,points):
         return simple_user_database [user]
     
 
-
+deductPoints(user,points)
    
 
 
